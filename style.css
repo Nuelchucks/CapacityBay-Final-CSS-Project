@@ -95,7 +95,49 @@ nav ul li a:hover {
 .hamburger div:not(:last-child){
     margin-bottom: 5px;
 }
-
+/* Obimdike's contribution */
+.footer{
+    background-color: var(--VeryDarkViolet);
+    padding: 50px 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    
+}
+.con{
+    max-width: 1170px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 659px;
+    
+}
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: gray;
+    font-weight: 300;
+    display: block;
+}
+.footer-col ul li a:hover{
+    color: var(--Cyan);
+}
 /* HEADER RESPONSIVENESS: */
 
 @media (max-width: 1000px){
